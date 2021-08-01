@@ -27,9 +27,9 @@ Using your knowledge of Pandas and the Scikit-Learn’s StandardScaler(), we’l
 	- 1st hidden layer activation function = relu
 	- 2nd hidden layer activation funtion = sigmoid
 - This model acheived a 72.9% accuracy, so the target performance was not met.
-- Steps taken to increase the model performance were 
+- Steps taken to increase the model performance were:
 	- Changing the 2nd hidden layer activation funtion from sigmoid to relu. This model achieved the same accuracy from the original neural network model, 72.9%.
 	- A third hidden layer was added with 10 neurons and a sigmoid activation funtion. This model achieved an accuracy of 73%.
 	- The number of input layers was changed from 43 to the length of len(X_train_scaled[0]). This model achieved an accuracy of 73%, as well.
 # Summary
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+After four attempts, I was unable to create a model that could preform a 75% accuracy rating. This is potential becasue I got rid of too many columns, I did not use the correct activation function, or I did not have hte right amount of layers and neurons. These were the main areas I continued the change with little to no improvement. Next time, I would research more about activation functions to make sure that I am always choosing the right one based on the data.
