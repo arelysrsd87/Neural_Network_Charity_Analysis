@@ -20,8 +20,16 @@ Using your knowledge of Pandas and the Scikit-Learn’s StandardScaler(), we’l
 	- NAME
 	- EIN
 ## Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- For the initail neural network model I selected the following parameters:
+	- number_input_features = 43
+	- hidden_nodes_layers1 = 80
+	- hidden_nodes_layers2 = 30
+	- 1st hidden layer activation function = relu
+	- 2nd hidden layer activation funtion = sigmoid
+- This model acheived a 72.9% accuracy, so the target performance was not met.
+- Steps taken to increase the model performance were 
+	- Changing the 2nd hidden layer activation funtion from sigmoid to relu. This model achieved the same accuracy from the original neural network model, 72.9%.
+	- A third hidden layer was added with 10 neurons and a sigmoid activation funtion. This model achieved an accuracy of 73%.
+	- The number of input layers was changed from 43 to the length of len(X_train_scaled[0]). This model achieved an accuracy of 73%, as well.
 # Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
