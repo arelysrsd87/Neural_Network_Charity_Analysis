@@ -31,7 +31,7 @@ Using your knowledge of Pandas and the Scikit-Learn’s StandardScaler(), we’l
 - Steps taken to increase the model performance were:
 	- Changing the 2nd hidden layer activation funtion from sigmoid to relu. This model achieved the same accuracy from the original neural network model, 72.9%.
 	![attempt1_nn](https://github.com/arelysrsd87/Neural_Network_Charity_Analysis/blob/main/Images/attempt1_nn.jpg)  
-	- A third hidden layer was added with 10 neurons and a sigmoid activation funtion. This model achieved an accuracy of 73%.
+	- A third hidden layer was added with 10 neurons and a sigmoid activation funtion. This model achieved an accuracy of 73%.   
 	![attempt2_nn](https://github.com/arelysrsd87/Neural_Network_Charity_Analysis/blob/main/Images/attempt2_nn.jpg)  
 	- The number of input layers was changed from 43 to the length of len(X_train_scaled[0]). This model achieved an accuracy of 73%, as well.
 	![attempt3_nn](https://github.com/arelysrsd87/Neural_Network_Charity_Analysis/blob/main/Images/attempt3_nn.jpg)  
