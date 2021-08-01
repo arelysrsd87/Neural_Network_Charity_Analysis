@@ -5,9 +5,20 @@ With your knowledge of machine learning and neural networks, you’ll use the fe
 Using your knowledge of Pandas and the Scikit-Learn’s StandardScaler(), we’ll need to preprocess the dataset in order to compile, train, and evaluate the neural network model. Using our knowledge of TensorFlow, we’ll design a neural network to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Once we’ve completed that step, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy. Using our knowledge of TensorFlow, optimize the model in order to achieve a target predictive accuracy higher than 75%. 
 # Results
 ## Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
-- What variable(s) are considered to be the features for your model?
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- The  variable IS_SUCCESSFUL is considered the target for this analysis model.
+- The following variables are considered the features for this analysis model:
+- ORGANIZATION
+- STATUS
+- INCOME_AMT
+- SPECIAL_CONSIDERATIONS
+- ASK_AMT
+- APPLICATION_TYPE
+- AFFILIATION
+- CLASSIFICATION
+- USE_CASE
+- The following variables are neither target nor features for this model:
+- NAME
+- EIN
 ## Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 - Were you able to achieve the target model performance?
