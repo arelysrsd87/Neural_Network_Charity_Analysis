@@ -26,7 +26,7 @@ Using your knowledge of Pandas and the Scikit-Learn’s StandardScaler(), we’l
 	- hidden_nodes_layers2 = 30
 	- 1st hidden layer activation function = relu
 	- 2nd hidden layer activation funtion = sigmoid
-	- output layer activation function = sigmoid
+	- output layer activation function = sigmoid  
 I started with relu as the first activation function as it does better with nonlinear data. Subsequently, I selected the sigmoid funtion because it is used to add non-linearity in a machine learning model, in simple words it decides which value to pass as output and what not to pass. I decided to add two layers to allow the second layer to reweight the inputs from the first layer. Here are the preformance metrics of this model.
 - This model acheived a 72.9% accuracy, so the target performance was not met.
 ![original_nn](https://github.com/arelysrsd87/Neural_Network_Charity_Analysis/blob/main/Images/original_nn.jpg)  
